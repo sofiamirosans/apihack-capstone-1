@@ -1,0 +1,58 @@
+colgroup {
+    display: table-column-group;
+    }
+    
+    table {
+      border-spacing: 3px;
+    }
+    
+    th {
+      border: 1px solid gray;
+      width: 240px; 
+      height: 60px;
+      text-align: center;
+      border-collapse: collapse;
+    }
+    
+    td {
+      border: 1px solid gray;
+      width: 240px;
+      height: 80px;
+      font-size: 12px;
+      vertical-align: top;
+    }
+    
+    #total-confirmed, #total-deaths, #total-recovered, #new-confirmed, #new-deaths, #new-recovered {
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    }
+    
+    #country-total-confirmed, #country-total-deaths, #country-total-recovered {
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    }
+    
+    
+    country-data {
+      margin-top: 20px;
+    }
+    
+    .country-selection {
+    margin-bottom: 15px;
+    }
+    
+    #selection {
+      width: 120px;
+      height: 20px;
+      font-size: 10px;
+    }
+    
+    .input-field {
+      margin-bottom: 15px;
+    }

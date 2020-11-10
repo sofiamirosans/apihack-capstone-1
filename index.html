@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>COVID-19 Worldwide Tracker</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<link href='https://fonts.googleapis.com/css?family=Karla' rel='stylesheet'>
+
+<body>
+	<section class="main-menu">
+		<h1>COVID-19 Worldwide Tracker</h1>
+	</section>
+	<table>
+		<colgroup span="3" class="columns"></colgroup>
+		<tr>
+			<th>Cases</th>
+			<th>Deaths</th>
+			<th>Recovered</th>
+		</tr>
+		<tr>
+			<td>Total <span id="total-confirmed"></span></td>
+				<td>Total<span id="total-deaths"></span></td>
+				<td>Total<span id="total-recovered"></span></td>
+			</tr>
+			<tr>
+				<td>New<span id="new-confirmed"></span></td>
+				<td>New<span id="new-deaths"></span></td>
+				<td>New<span id="new-recovered"></span></td>
+			</tr>
+		</table>
+
+	<section class="country-data">
+		<h2>Country Data</h2>
+			<div class="country-selection">Select a Country</div>
+			<div class="input-field">
+				<select id="countries" name="countries" class="browser-default">
+          <option value="" disabled selected>F.eg: Spain</option>
+        </select>
+      </div>
+      </section>
+
+  		<table>
+    		<tr>
+			<th>Cases</th>
+			<th>Deaths</th>
+			<th>Recovered</th>
+		</tr>
+		<tr>
+			<td>Total<span id="country-total-confirmed"></span></td>
+				<td>Total<span id="country-total-deaths"></span></td>
+				<td>Total<span id="country-total-recovered"></span></td>
+			</tr>
+</table>
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+	<script src="script.js">
+	</script>
+</body>
+
+</html>
