@@ -12,6 +12,7 @@
 <body>
 	<section class="main-menu">
 		<h1>COVID-19 Worldwide Tracker</h1>
+    <hr class="bold-line">
 	</section>
 	<table>
 		<colgroup span="3" class="columns"></colgroup>
@@ -26,7 +27,7 @@
 				<td>Total<span id="total-recovered"></span></td>
 			</tr>
 			<tr>
-				<td>New<span id="new-confirmed"></span></td>
+				<td>New<span id="new-confirmed"></span><span id="trendLine-1"></span></td>
 				<td>New<span id="new-deaths"></span></td>
 				<td>New<span id="new-recovered"></span></td>
 			</tr>
@@ -34,6 +35,7 @@
 
 	<section class="country-data">
 		<h2>Country Data</h2>
+    <hr class="bold-line">
 			<div class="country-selection">Select a Country</div>
 			<div class="input-field">
 				<select id="countries" name="countries" class="browser-default">
@@ -55,6 +57,9 @@
 			</tr>
 </table>
 <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+
+	<script src="sparkline.js">
+	</script>
 	<script src="script.js">
 	</script>
 </body>
