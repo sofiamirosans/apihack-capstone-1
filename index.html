@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
 	<meta charset="utf-8">
@@ -10,19 +10,20 @@
 <link href='https://fonts.googleapis.com/css?family=Karla' rel='stylesheet'>
 
 <body>
-	<section class="main-menu">
-		<h1>COVID-19 Worldwide Tracker</h1>
-    <hr class="bold-line">
-	</section>
-	<table>
-		<colgroup span="3" class="columns"></colgroup>
-		<tr>
-			<th>Cases</th>
-			<th>Deaths</th>
-			<th>Recovered</th>
-		</tr>
-		<tr>
-			<td>Total <span id="total-confirmed"></span></td>
+	<main>
+		<section class="main-menu">
+			<h1>COVID-19 Worldwide Tracker</h1>
+			<hr class="bold-line">
+		</section>
+		<table>
+			<colgroup span="3" class="columns"></colgroup>
+			<tr>
+				<th>Cases</th>
+				<th>Deaths</th>
+				<th>Recovered</th>
+			</tr>
+			<tr>
+				<td>Total <span id="total-confirmed"></span></td>
 				<td>Total<span id="total-deaths"></span></td>
 				<td>Total<span id="total-recovered"></span></td>
 			</tr>
@@ -33,35 +34,36 @@
 			</tr>
 		</table>
 
-	<section class="country-data">
-		<h2>Country Data</h2>
-    <hr class="bold-line">
+		<section class="country-data">
+			<h2>Country Data</h2>
+			<hr class="bold-line">
 			<div class="country-selection">Select a Country</div>
 			<div class="input-field">
 				<select id="countries" name="countries" class="browser-default">
-          <option value="" disabled selected>F.eg: Spain</option>
-        </select>
-      </div>
-      </section>
+					<option value="" disabled selected>F.eg: Spain</option>
+				</select>
+			</div>
+		</section>
 
-  		<table>
-    		<tr>
-			<th>Cases</th>
-			<th>Deaths</th>
-			<th>Recovered</th>
-		</tr>
-		<tr>
-			<td>Total<span id="country-total-confirmed"></span></td>
+		<table>
+			<tr>
+				<th>Cases</th>
+				<th>Deaths</th>
+				<th>Recovered</th>
+			</tr>
+			<tr>
+				<td>Total<span id="country-total-confirmed"></span></td>
 				<td>Total<span id="country-total-deaths"></span></td>
 				<td>Total<span id="country-total-recovered"></span></td>
 			</tr>
-</table>
-<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+		</table>
+		<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
 
-	<script src="sparkline.js">
-	</script>
-	<script src="script.js">
-	</script>
+		<script src="sparkline.js">
+		</script>
+		<script src="script.js">
+		</script>
+	</main>
 </body>
 
 </html>
