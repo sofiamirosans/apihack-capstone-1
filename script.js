@@ -52,7 +52,7 @@ function compareCountries(a, z) {
 function obtainCountryData(country) {
   fetch("https://api.covid19api.com/total/country/" + country, requestOptions)
     .then(response => response.json())
-    .then(result => displayCountryData(result[result.length - 1]))
+    .then(result => displayCountryData(result.length > 0 ? result[result.length - 1] : {"Country":"No Cases Country","CountryCode":"","Province":"","City":"","CityCode":"","Lat":"0","Lon":"0","Confirmed":0,"Deaths":0,"Recovered":0,"Active":0,"Date":"2020-01-22T00:00:00Z"}))
     .catch(error => console.log('error', error));
 }
 
