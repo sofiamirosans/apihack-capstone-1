@@ -6,9 +6,9 @@ Link to live repo: https://sofiamirosans.github.io/apihack-capstone-1/
 
 ## Screenshots
 
-![View 1](https://ibb.co/Gp6R0Wy)
+![View 1](./CD19-1.png)
 
-![View 2](https://ibb.co/4t0M04T)
+![View 2](./CD19-2.png)
 
 ## Summary
 
